@@ -59,12 +59,12 @@ The extension uses the official Codeforces API to monitor your progress:
 
 ## 📂 Project Structure
 
+```
 cf-stopwatch-firefox/   cf-stopwatch-chrome/
 ├── manifest.json       ├── manifest.json  (MV3)
 ├── content.js          ├── content.js
 └── content.css         └── content.css
-
-
+```
 ---
 
 ## 📜 License & Copyright
