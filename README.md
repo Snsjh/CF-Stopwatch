@@ -2,10 +2,13 @@
   <img src="https://github.com/user-attachments/assets/daae5e97-8f5c-4e6b-beaa-0e889d9a2b1c" width="120" height="120" alt="CF Stopwatch Icon">
   
   <h1>CF Stopwatch</h1>
-  <p><strong>Precision time-tracking for competitive programmers.</strong></p>
-
+  <p><strong>Precision time-tracking for competitive programmers.</strong></p><a href="./cf-stopwatch-firefox.zip">
   <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" />
+</a>
+
+<a href="./cf-stopwatch-chrome.zip">
   <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" />
+</a>
   <br><br>
   <img src="https://github.com/user-attachments/assets/5fc139fb-5a2f-49e3-a2a3-1d6f01ca619c" width="34.7%" />
   <img src="https://github.com/user-attachments/assets/c7192848-26a4-4fd1-9f15-92818ae3ae36" width="33%" />
