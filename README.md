@@ -3,7 +3,7 @@
   
   <h1>CF Stopwatch</h1>
 <p><sub>by <b>Pratik Rakhecha</b></sub></p>
-  <p><strong>Precision time-tracking for competitive programmers.</strong></p><a href="./cf-stopwatch-firefox.zip">
+  <p><strong>Precision time-tracking for competitive programmers.</strong></p><a href="https://addons.mozilla.org/en-US/firefox/addon/cf-stopwatch/">
   <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" />
 </a>
 
@@ -40,11 +40,7 @@ CF Stopwatch is a lightweight browser extension that seamlessly integrates into 
 4. Click **Load unpacked** and select the extension folder.
 
 ### **Firefox**
-
-1. Download the `cf-stopwatch-firefox` folder.
-2. Navigate to `about:debugging`.
-3. Click **This Firefox** → **Load Temporary Add-on…**.
-4. Select the `manifest.json` file.
+Add ons: ![download](https://addons.mozilla.org/en-US/firefox/addon/cf-stopwatch/)
 
 ---
 
